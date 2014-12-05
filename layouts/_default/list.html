@@ -1,13 +1,11 @@
 {{ partial "header.html" . }}
 <section id="main">
 <div class="row">
-  <div class="col-center col-6">
-    <header class="py2">
-      <h1 class="dark-gray">{{ .Title }}</h1>
-      <h4 class="mid-gray"><a href="/"><span class="geomicon fill-mid-gray" data-id="home"></span></a></h4>
-    </header>
+  <div class="col-center col-7">
+    {{ partial "subheader.html" . }}
+    <h2 class="h2 center">{{ .Title }}</h2>
     {{ range .Data.Pages }}
-      {{ .Render "summary" }}
+      {{ .Render "li" }}
     {{ end }}
     {{ partial "social.html" . }}
   </div>

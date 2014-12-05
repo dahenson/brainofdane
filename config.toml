@@ -1,3 +1,7 @@
 baseurl = "http://brainofdane.com"
 languageCode = "en-us"
 title = "Brain Of Dane"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
