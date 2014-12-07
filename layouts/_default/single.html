@@ -1,13 +1,15 @@
 {{ partial "header.html" . }}
 <section id="main" class="row">
-  <div class="col-center col-6">
-  <header class="py2">
-    <h1 id="title">{{ .Title }}</h1>
-    <h4 class="mid-gray"><a href="/"><span class="geomicon fill-mid-gray" data-id="home"></span></a> > <a href="/{{ .Section }}">{{ .Section }}</a></h4>
-  </header>
-  <div>
-    {{ .Content }}
-  </div>
+  <div class="sm-col-12 md-col-8 lg-col-8 mx-auto">
+    {{ partial "subheader.html" . }}
+    <div>
+      <h2 class="h2">{{ .Title }}</h2>
+      <h4 class="h4 mid-gray">{{ .Date.Format "Jan 2, 2006" }}</h4>
+      <div class="justify">
+        {{ .Content }}
+      </div>
+      {{ partial "social.html" . }}
+    </div>
   </div>
 </section>
 {{ partial "footer.html" . }}
