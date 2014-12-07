@@ -1,10 +1,10 @@
 {{ partial "header.html" . }}
 <section id="main" class="row">
-  <div class="sm-col-12 md-col-8 lg-col-8 mx-auto">
+  <div class="sm-col-12 md-col-7 lg-col-7 mx-auto">
     {{ partial "subheader.html" . }}
     <div>
       <h2 class="h2">{{ .Title }}</h2>
-      <h4 class="h4 mid-gray">{{ .Date.Format "Jan 2, 2006" }}</h4>
+      <h4 class="h4">{{ .Date.Format "Jan 2, 2006" }}</h4>
       <div class="justify">
         {{ .Content }}
       </div>

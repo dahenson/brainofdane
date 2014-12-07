@@ -4,6 +4,9 @@ draft = false
 title = "Film Love"
 
 +++
+<script src="https://lumo.me/embed/v1/4945?w=800&h=531" id="lumo_script_4945"></script>
+
+---
 
 This picture was taken on my Nikon FE.  It used to be my sister's film camera, before digital cameras were a thing.  Somehow it got passed to me and I love using it.
 
