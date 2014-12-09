@@ -3,8 +3,6 @@
   <div class="sm-col-12 md-col-7 lg-col-7 mx-auto">
     {{ partial "subheader.html" . }}
     <div>
-      <h2 class="h2 ">{{ .Date.Format "Jan 2, 2006" }}</h2>
-      <h4 class="h4 mid-gray"><span class="geomicon fill-mid-gray mr1" data-id="clock"></span>{{ .ReadingTime }} minute read</h4>
       <div>
         {{ .Content }}
       </div>

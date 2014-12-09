@@ -1,8 +1,7 @@
 +++
-date = 2014-08-28T00:46:13Z
 draft = true
 title = "We Came To Observe The Bowling Ball"
-
+description = "World harmony by means of an accidental lawn ornament."
 +++
 
 *The greatest minds are forged in the fires of a bowling ball factory.*

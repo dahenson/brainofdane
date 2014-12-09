@@ -16,10 +16,23 @@ h2 {
   vertical-align: -0.125em;
 }
 
+.geomiconx2 {
+  height: 2em;
+  width: 2em;
+}
+
 .fill-mid-gray {
   fill: #667680;
 }
 
 .fill-mid-gray:hover {
   fill: #304650; /* Dark Gray */
+}
+
+.fill-blue {
+  fill: #0076df;
+}
+
+.fill-lighter-gray {
+  fill: #eee;
 }
