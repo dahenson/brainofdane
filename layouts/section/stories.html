@@ -5,7 +5,7 @@
     {{ partial "subheader.html" . }}
     <div>
       {{ range .Data.Pages }}
-        {{ .Render "summary" }}
+        {{ .Render "story" }}
       {{ end }}
     </div>
     {{ partial "social.html" . }}
