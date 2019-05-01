@@ -1,7 +1,4 @@
-baseurl = "http://brainofdane.com"
+baseURL = "http://brainofdane.com/"
 languageCode = "en-us"
-title = "Brain Of Dane"
-
-[[menu.main]]
-  name = "Home"
-  url = "/"
+title = "The Brain of Dane"
+theme = "hugo-theme-minos"

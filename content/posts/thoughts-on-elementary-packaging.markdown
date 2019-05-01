@@ -35,7 +35,7 @@ sudo apt-get install app
 
 There's that command prompt again.
 
-###The elementary Developer
+### The elementary Developer
 Now we're getting down to the crux of the problem. I have nothing against public repositories, or app stores, or developing in the open with unstable PPAs. My main issue stems from the fact that elementary OS does not have an app store, and does not have a separate stable repository for third-party applications.
 
 Instead, the myriad of third-party applications cropping up are resorting to the lowest barrier of entry, which is PPAs. They develop a great application, figure out how to automate packaging, and then say "come get it in my PPA!"
